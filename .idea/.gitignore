@@ -7,13 +7,4 @@
 # Archivos de compilación
 /target/
 *.class
-
-# Configuración de IntelliJ IDEA
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Archivos de sistema
-.DS_Store
-Thumbs.db
+0000000
