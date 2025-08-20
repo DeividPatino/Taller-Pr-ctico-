@@ -23,8 +23,8 @@ public class RegistroTest {
     @Test
     void testRegistroConPasswordVacio() {
         Registro registro = new Registro();
-        assertTrue(registro.registrar("maria", "")); // se permite pero guarda vacío
-        assertEquals(1, registro.cantidadUsuarios());
+        assertFalse(registro.registrar("maria", "")); // se permite pero guarda vacío
+        assertEquals(0, registro.cantidadUsuarios());
     }
 
     @Test
